@@ -18,7 +18,7 @@ module.exports = Object.assign({
     title: 'React Redux',
     description: 'All the modern best practices in one example.',
     head: {
-      titleTemplate: 'React Redux: %s',
+      titleTemplate: 'React Redux : %s',
       meta: [
         {name: 'description', content: 'All the modern best practices in one example.'},
         {charset: 'utf-8'},

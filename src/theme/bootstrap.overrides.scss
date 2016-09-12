@@ -8,9 +8,26 @@
   padding-left: 50px;
 }
 
+.navbar-default{
+  background-color: #000000;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #33e0ff;
+.navbar-default .navbar-nav > .active > a:focus{
   background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #B3B6B7;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover{
+  color: #33e0ff;
 }

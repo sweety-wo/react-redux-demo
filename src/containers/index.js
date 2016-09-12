@@ -5,5 +5,5 @@ export Widgets from './Widgets/Widgets';
 export About from './About/About';
 export Login from './Login/Login';
 export LoginSuccess from './LoginSuccess/LoginSuccess';
-export Survey from './Survey/Survey';
+export Employee from './Employee/Employee';
 export NotFound from './NotFound/NotFound';

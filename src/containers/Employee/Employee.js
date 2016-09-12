@@ -7,7 +7,7 @@ import {SurveyForm} from 'components';
 @connect(
   () => ({}),
   {initialize})
-export default class Survey extends Component {
+export default class Employee extends Component {
   static propTypes = {
     initialize: PropTypes.func.isRequired
   }
@@ -30,8 +30,8 @@ export default class Survey extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Survey</h1>
-        <Helmet title="Survey"/>
+        <h1>Employee</h1>
+        <Helmet title="Employee"/>
         <div style={{textAlign: 'center', margin: 15}}>
           <button className="btn btn-primary" onClick={this.handleInitialize}>
             <i className="fa fa-pencil"/> Initialize Form
