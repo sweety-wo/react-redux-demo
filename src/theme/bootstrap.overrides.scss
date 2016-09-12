@@ -18,11 +18,11 @@
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-span{
   color: #B3B6B7;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-span strong{
   color: #FFFFFF;
 }
 

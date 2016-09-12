@@ -6,6 +6,9 @@ export default class Home extends Component {
     const styles = require('./Home.scss');
     return (
       <div className={styles.home}>
+        <div className={styles.masthead}>
+          <h1>Welcome to React-Redux Demo</h1>
+        </div>
         <Helmet title="Home"/>
         <div className="container">
 
